@@ -7,3 +7,17 @@ spring:
     open-in-view: false
     hibernate:
       ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: when_authorized
+  security:
+    enabled: false  # Desativa segurança dos endpoints do actuator (inclusive /health)

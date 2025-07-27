@@ -1,0 +1,30 @@
+# Diretórios do Gradle
+.gradle
+build/
+
+# Diretórios do IntelliJ IDEA / Eclipse / VSCode
+.idea
+*.iml
+*.ipr
+*.iws
+.vscode
+*.sw?
+
+# Diretórios de testes ou temporários
+test-output/
+out/
+bin/
+target/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de controle de versão e backups
+*.log
+*.bak
+*.tmp
+
+# Git
+.git
+.gitignore
