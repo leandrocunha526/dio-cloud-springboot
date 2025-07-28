@@ -54,3 +54,5 @@ classDiagram
 ## Documentação da API (Swagger)
 
 - <http://localhost:8080/swagger-ui/index.html>
+
+__Foi feito um deploy na núvem usando Docker, mas foi descontinuado para evitar cobranças.__
